@@ -6,7 +6,7 @@ Simple experiment to create a WiFi-attached DMX driver using a Raspberry Pi Pico
 * My solution here blends the Pico W's ability to run a http server with some input data processing to drive DMX fixtures.
 
 ## DMX Basics
-* DMX is a protocol that defines 512 "slots" that can be used by all manner of devices - from simple switches, through to complex moving head units. Each group of 512 slots is known as a Universe.
+* [DMX](https://en.wikipedia.org/wiki/DMX512) is a control protocol that defines 512 "slots" that can be used by all manner of attached devices - from simple switches, through to complex moving head units. Each group of 512 slots is known as a Universe.
 * Each "slot" contains a value from 0 to 255, that represent 256 variations of 0% to 100%. In data terms, each value is a `byte`.
   * Each lighting fixture has an address. This sets the "from" slot to read values. E.g. a 2 channel dimmer with address 1 would use slots 1 and 2 for brightness, and a 3 channel RGB LED fixture might use slots 11, 12 and 13 for its red, blue and green colour mix if it's address was set to 11.
   * Simple devices such as a switch might define that a value up to 128 means OFF, and more than 128 means ON.
