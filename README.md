@@ -28,7 +28,7 @@ It should be noted that this project is all about SIMPLE control of DMX devices.
   * To set 512 slots to different values, you must send 512 numbers, otherwise the slots would be set to 0.
   * It's down to your implementation to remember what slot values might be set if you want to recall them at a later date.
 
-## Parts required for this cheap (less than $15) project
+## Parts required for this project
 * A Raspberry Pi Pico W https://www.raspberrypi.com/products/raspberry-pi-pico/ - a low cost $8 microcontroller using the dual-core RP2040 processor. https://www.google.com/search?q=pico+w+buy
   
   ![image](https://github.com/bevand10/pico-web-dmx/assets/5892030/d0a5f3b6-b22b-427c-b304-86d5560cd694)
