@@ -1,5 +1,5 @@
 # pico-web-dmx
-Simple experiment to create a WiFi-attached DMX driver using a Raspberry Pi Pico W
+Simple experiment to create a cheap (less than $15) WiFi attached DMX controller using a Raspberry Pi Pico W.
 
 ## Software
 * The hard part of this project - a DMX protocol engine - exists thanks to [this project](https://github.com/jostlowe/Pico-DMX) from Jostein Løwer.
